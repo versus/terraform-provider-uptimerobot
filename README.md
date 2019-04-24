@@ -2,12 +2,12 @@
 [![CircleCI](https://circleci.com/gh/louy/terraform-provider-uptimerobot.svg?style=svg)](https://circleci.com/gh/louy/terraform-provider-uptimerobot)
 
 ## Getting started
-
+```
 git clone git@github.com:versus/terraform-provider-uptimerobot.git
 cd terraform-provider-uptimerobot
 go build
 mv terraform-provider-uptimerobot $HOME/.terraform.d/plugins
-
+```
 ```tf
 
 provider "uptimerobot" {
