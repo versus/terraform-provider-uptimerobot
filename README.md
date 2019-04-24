@@ -3,6 +3,11 @@
 
 ## Getting started
 
+git clone git@github.com:versus/terraform-provider-uptimerobot.git
+cd terraform-provider-uptimerobot
+go build
+mv terraform-provider-uptimerobot $HOME/.terraform.d/plugins
+
 ```tf
 
 provider "uptimerobot" {
